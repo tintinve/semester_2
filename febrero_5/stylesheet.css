@@ -1,0 +1,86 @@
+/* Conditional Data
+
+let a = 1
+let b = "1"
+
+if (a==b) {
+This is true, == check that the value is true but do not check the data tyoe.
+}
+
+if (a===b){
+this is false, === check the value AND the data type.
+in this case, a is a number, and b is a string.
+}
+
+
+
+
+
+let name="";
+if( name ){
+  //1. will this run?
+}
+
+An empty string means FALSE. OJO
+
+let age;
+if( age ){
+  //2. will this?
+}
+
+age is not defined. then NO.
+
+let items = ['beer', 'cabbage'];
+if( items.length ){
+  //3. me?
+}
+
+
+Yes. Tested
+
+if( hobby ){
+  //4. or this?
+}
+
+
+No, no variable defined.
+
+
+let drinksLeft = 0;
+if( drinksLeft ){
+  //5. what about me?
+}
+
+Cero is false
+
+
+let balance=-10000;
+if( balance ){
+  //6. or?
+}
+
+Yes.
+
+let shouldSleep=true;
+if( !shouldSleep ){
+  //7. ?
+}
+
+! means negation
+
+
+Dont know.
+
+let sleepy = "false";
+if( sleepy ){
+  //8. ???
+}
+
+Any string that is not empty, is true,
+
+///////////////////////////////////////////////////
+
+
+
+
+*/

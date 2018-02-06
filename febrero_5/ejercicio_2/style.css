@@ -1,0 +1,37 @@
+article{
+    position: relative;
+    background: red;
+}
+
+.price{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #CCC;
+}
+.discount{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: green;
+}
+.hide{
+    
+}
+.strike{
+    
+}
+.icons{
+    
+}
+.icon_style{
+    width: 130px;
+}
+/* math.floor()
+   math.ceil() 
+Buscar que hacen estos operadores.
+
+Visibility: hidding == el elemento no se ve, pero si toma el espacio.
+display: none == el elemento no existe.
+*/
+
